@@ -5,7 +5,7 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="bg-gray-100 py-20 px-6">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h1 className="text-5xl font-bold mb-4">
             Developing the next generation of leaders
           </h1>
