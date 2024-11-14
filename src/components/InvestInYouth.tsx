@@ -6,7 +6,7 @@ interface InvestInYouthProps {
 
 export default function InvestInYouth({ className = '' }: InvestInYouthProps) {
   return (
-    <section className={`py-16 px-6 bg-gray-100 ${className}`}>
+    <section className={`py-16 px-6 ${className}`}>
       <div className="max-w-6xl mx-auto">
         <div className="max-w-xl">
           <h2 className="text-3xl font-bold mb-4">Invest in local youth leaders</h2>
