@@ -108,7 +108,40 @@ export default function CareerPlanning() {
         </div>
       </section>
 
+      {/* Upcoming Dates & Application Section */}
+      <section className="py-16 px-6 bg-gray-100">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+            {/* Upcoming Dates */}
+            <div>
+              <h2 className="text-3xl font-bold mb-6">Upcoming dates</h2>
+              <p className="text-gray-600 mb-8">
+                Mark your calendar for our next career fair in October. Subscribe to our 
+                newsletter to stay tuned for specific dates and times, and don't miss this 
+                opportunity to take the next step in your career.
+              </p>
+            </div>
 
+            {/* Application */}
+            <div>
+              <h2 className="text-3xl font-bold mb-6">Application</h2>
+              <p className="text-gray-600 mb-8">
+                Apply now to join our upcoming Career Development Program and take control 
+                of your professional future.
+              </p>
+              <div className="space-y-6">
+                <Link href="#" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                  Submit your application
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <StayConnected />
+    
+      <SponsorProgram />
     </>
   );
 } 
