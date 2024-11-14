@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import SponsorProgram from "@/components/SponsorProgram";
+import StayConnected from "@/components/StayConnected";
 
 export default function YLPProgram() {
   return (
@@ -310,74 +312,11 @@ export default function YLPProgram() {
         </div>
       </section>
 
-      {/* Sponsor Section */}
-      <section className="py-16 px-6 bg-gray-100">
-        <div className="max-w-6xl mx-auto">
-          <div className="max-w-3xl">
-            <h2 className="text-3xl font-bold mb-4">Sponsor this program</h2>
-            <p className="text-gray-600 mb-6">
-              Support the next generation of leaders by sponsoring this program. Your sponsorship will empower young leaders to make a 
-              lasting impact in their communities, driving growth, innovation, and prosperity. Join us in shaping a brighter future.
-            </p>
-            <Link 
-              href="/contact-us" 
-              className="text-blue-600 hover:underline"
-            >
-              Contact us to learn more about sponsorship opportunities.
-            </Link>
-          </div>
-        </div>
-      </section>
+      {/* Sponsor Program */}
+      <SponsorProgram />
 
-     
-
-      {/* Stay Connected Section */}
-      <section className="py-16 px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="max-w-xl">
-            <h2 className="text-3xl font-bold mb-4">Stay connected</h2>
-            <p className="text-gray-600 mb-8">
-              Join our newsletter to receive updates on our programs, events, and 
-              opportunities to support the next generation of leaders.
-            </p>
-
-            <form className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-gray-700 mb-2">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                  required
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block text-gray-700 mb-2">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                  required
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-              >
-                Sign up
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
+      {/* Stay Connected */}
+      <StayConnected className="bg-white"/>
     </>
   );
 } 

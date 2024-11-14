@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import InvestInYouth from "@/components/InvestInYouth";
 
 // Team member card component
 interface TeamMemberProps {
@@ -128,6 +129,7 @@ export default function OurPeople() {
           </div>
         </div>
       </section>
+      <InvestInYouth />
     </>
   );
 } 

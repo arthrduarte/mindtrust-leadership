@@ -1,4 +1,7 @@
 import Image from "next/image";
+import InvestInYouth from '@/components/InvestInYouth';
+import StayConnected from '@/components/StayConnected';
+import LearnMore from '@/components/LearnMore';
 
 export default function Home() {
   return (
@@ -132,18 +135,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Invest in Local Youth Leaders Section */}
-      <section className="bg-gray-100 py-16 px-6">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Invest in local youth leaders</h2>
-          <p className="text-gray-600 mb-6 max-w-3xl">
-            Empower young people from diverse backgrounds to become the leaders our communities need. Your donation to Mindtrust Leadership is more than just a gift—it's an investment in the future of our community.
-          </p>
-          <a href="#donate" className="inline-block border border-blue-600 text-blue-600 px-6 py-2 rounded-full hover:bg-blue-50 transition-colors">
-            Donate now
-          </a>
-        </div>
-      </section>
+      <InvestInYouth />
 
       {/* Partners and Funders Section */}
       <section className="py-16 px-6">
@@ -194,41 +186,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stay Connected Section */}
-      <section className="bg-gray-100 py-16 px-6">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Stay connected</h2>
-          <p className="text-gray-600 mb-8">
-            Join our newsletter to receive updates on our programs, events, and opportunities to support the next generation of leaders.
-          </p>
-          
-          <form className="max-w-md space-y-4">
-            <div>
-              <label htmlFor="name" className="block text-sm mb-2">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
-            </div>
-            
-            <div>
-              <label htmlFor="email" className="block text-sm mb-2">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
-            </div>
-
-            <button type="submit" className="btn-primary">
-              Sign up
-            </button>
-          </form>
-        </div>
-      </section>
+      <StayConnected />
     </>
   );
 }

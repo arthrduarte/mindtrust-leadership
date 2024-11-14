@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import SponsorProgram from "@/components/SponsorProgram";
 
 export default function MLDPProgram() {
   return (
@@ -244,24 +245,8 @@ export default function MLDPProgram() {
         </div>
       </section>
 
-      {/* Sponsor Section */}
-      <section className="py-16 px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="max-w-3xl">
-            <h2 className="text-3xl font-bold mb-4">Sponsor this program</h2>
-            <p className="text-gray-600 mb-6">
-              Support the next generation of leaders by sponsoring this program. Your sponsorship will empower young leaders to make a 
-              lasting impact in their communities, driving growth, innovation, and prosperity. Join us in shaping a brighter future.
-            </p>
-            <Link 
-              href="/contact-us" 
-              className="text-blue-600 hover:underline"
-            >
-              Contact us to learn more about sponsorship opportunities.
-            </Link>
-          </div>
-        </div>
-      </section>
+      {/* Sponsor Program */}
+      <SponsorProgram />
 
       {/* Partners and Funders Section */}
       <section className="bg-gray-100 py-16 px-6">

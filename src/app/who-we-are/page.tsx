@@ -1,3 +1,4 @@
+import InvestInYouth from "@/components/InvestInYouth";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -240,25 +241,7 @@ export default function WhoWeAre() {
         </div>
       </section>
 
-      <section className="bg-white py-16 px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="max-w-2xl">
-            <h2 className="text-3xl font-bold mb-6">
-              Invest in local youth leaders
-            </h2>
-            <p className="text-gray-600 mb-8">
-              Empower young people from diverse backgrounds to become the leaders our communities need. Your donation to 
-              Mindtrust Leadership is more than just a gift—it's an investment in the future of our community.
-            </p>
-            <a 
-              href="/donate" 
-              className="btn-primary inline-block"
-            >
-              Donate now
-            </a>
-          </div>
-        </div>
-      </section>
+      <InvestInYouth />
 
       <section className="bg-gray-100 py-16 px-6">
         <div className="max-w-6xl mx-auto">
