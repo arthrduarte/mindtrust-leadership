@@ -150,7 +150,7 @@ export default function WhatWeDo() {
               </div>
               <div className="mt-auto">
                 <Link 
-                  href="/events" 
+                  href="/programs/networking-events" 
                   className="text-blue-600 text-sm hover:underline"
                 >
                   Discover upcoming events
