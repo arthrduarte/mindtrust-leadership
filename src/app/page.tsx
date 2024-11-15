@@ -1,5 +1,6 @@
 import InvestInYouth from '@/components/InvestInYouth';
 import StayConnected from '@/components/StayConnected';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -13,12 +14,12 @@ export default function Home() {
           <p className="text-xl mb-6">
             Empowering youth, strengthening communities
           </p>
-          <a
-            href="#learn-more"
+          <Link
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full"
+            href="/who-we-are"
           >
             Learn more about us
-          </a>
+          </Link>
         </div>
       </section>
 
@@ -126,9 +127,9 @@ export default function Home() {
           </div>
           
           <div className="mt-8">
-            <a href="#programs" className="btn-primary">
+            <Link href="/programs" className="btn-primary">
               Learn about our programs
-            </a>
+            </Link>
           </div>
         </div>
       </section>

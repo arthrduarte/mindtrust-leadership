@@ -8,9 +8,9 @@ export default function WhoWeAre() {
       <div className="bg-gray-100 py-12 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-2 text-sm text-gray-600 mb-4">
-            <a href="/" className="hover:text-blue-600">
+            <Link href="/" className="hover:text-blue-600">
               Home
-            </a>
+            </Link>
             <span>›</span>
             <span>Who we are</span>
           </div>
