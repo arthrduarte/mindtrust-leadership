@@ -16,7 +16,7 @@ export default function InvestInYouth({ className = '' }: InvestInYouthProps) {
           </p>
           <Link 
             href="/donate"
-            className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            className="inline-block px-6 py-3 bg-[#0e809b] text-white rounded-lg hover:bg-[#0a5d70] transition-colors"
           >
             Donate now
           </Link>

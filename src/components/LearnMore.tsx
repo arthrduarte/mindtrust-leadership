@@ -25,7 +25,7 @@ export default function LearnMore({
           </p>
           <Link 
             href={buttonHref}
-            className="inline-block px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition-colors"
+            className="inline-block px-6 py-3 border-2 border-[##0e809b] text-[#0e809b] rounded-lg hover:bg-[#0a5d70] hover:text-white transition-colors"
           >
             {buttonText}
           </Link>
