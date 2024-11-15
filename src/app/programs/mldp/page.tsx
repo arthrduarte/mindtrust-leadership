@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import SponsorProgram from "@/components/SponsorProgram";
 
 export default function MLDPProgram() {

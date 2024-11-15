@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import StayConnected from '@/components/StayConnected';
 import LearnMore from '@/components/LearnMore';
 
 export default function HowYouCanHelp() {
@@ -42,7 +41,7 @@ export default function HowYouCanHelp() {
               We are raising $100,000 to expand our youth leadership development 
               programs, with a special focus on supporting youth from disadvantaged and 
               racialized communities. Your donation to Mindtrust Leadership is more than 
-              just a gift—it's an investment in the future of our community.
+              just a gift - it is an investment in the future of our community.
             </p>
             <Link 
               href="/donate" 

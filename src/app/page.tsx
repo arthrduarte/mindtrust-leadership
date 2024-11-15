@@ -1,7 +1,5 @@
-import Image from "next/image";
 import InvestInYouth from '@/components/InvestInYouth';
 import StayConnected from '@/components/StayConnected';
-import LearnMore from '@/components/LearnMore';
 
 export default function Home() {
   return (

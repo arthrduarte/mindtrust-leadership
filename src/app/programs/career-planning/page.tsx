@@ -1,8 +1,6 @@
 import Link from "next/link";
 import SponsorProgram from '@/components/SponsorProgram';
-import InvestInYouth from '@/components/InvestInYouth';
 import StayConnected from '@/components/StayConnected';
-import LearnMore from '@/components/LearnMore';
 
 export default function CareerPlanning() {
   return (

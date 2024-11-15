@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import InvestInYouth from "@/components/InvestInYouth";
 import LearnMore from "@/components/LearnMore";
 
